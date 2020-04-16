@@ -1,0 +1,114 @@
+@media ( max-width: 991px ){
+    .container{
+        width: 90%;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+    .advantages__wrapper{
+        padding: 0 10px;
+        align-items: flex-start;
+    }
+}
+@media ( max-width: 767px ){
+    .container{
+        width: 100%;
+    }
+    .header {
+        padding: 0 20px;
+    }
+    .promo {
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .promo__icons{
+        align-items: flex-end;
+    }
+    .advantages__wrapper{
+        padding: 0 10px;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 576px){
+    .header{
+        display: none;
+    }
+    .header__mobile{
+        display: flex;
+        align-items: flex-end;
+    }
+    .header__official{
+        line-height: 1;
+        span{
+            margin-top: 10px;
+        }
+    }
+    .promo__header {
+        font-size: 28px;
+    }
+    .promo__subheader {
+        font-size: 16px;
+    }
+    .advantages__wrapper{
+        flex-direction: column;
+        align-items:center;
+        margin-top: 0;
+    }
+    .advantages__item{
+        width: 80%;
+        margin-top: 40px;
+    }
+    .advantages__title{
+        margin-top: 0;
+    }
+    .advantages__desc {
+        font-size: 20px;
+    }
+}
+@media (max-width: 375px) {
+    .header__mobile {
+        display: block;
+    }
+    .header__logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .header__official {
+        display: block;
+        margin-top: 20px;
+    }
+    .promo__header {
+        font-size: 28px;
+    }
+    .promo__subheader {
+        font-size: 16px;
+    }
+    .promo__icons {
+        width: 350px;
+    }
+}
+
+@media (max-width: 340px) {
+    .header__mobile {
+        display: block;
+    }
+    .header__logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .header__official {
+        display: block;
+        margin-top: 20px;
+    }
+    .promo__header {
+        font-size: 25px;
+    }
+    .promo__subheader {
+        font-size: 14px;
+    }
+    .promo__icons {
+        width: 318px;
+        font-size: 12px;
+    }
+}
