@@ -18,6 +18,14 @@
     .feed-form {
         margin: 36px auto 0 auto;
     }
+    .courousel__inner {
+        width: 90%;
+       img {
+           width: 90%;
+           display: block;
+           margin: 0 auto;
+       }
+    }
 }
 @media ( max-width: 767px ){
     .container{
