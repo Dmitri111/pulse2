@@ -100,6 +100,16 @@
         margin-top: 30px;
         font-size: 18px;
     }
+    .catalog__tab {
+        width: 105px;
+        height: 35px;
+        span {
+            font-size: 10px;
+        }
+    }
+    .catalog__content {
+        justify-content: center;
+    }
 }
 @media (max-width: 375px) {
     .header__mobile {
@@ -128,6 +138,16 @@
     .consultation__description {
         font-size: 16px;
     }
+    .catalog__tab {
+        width: 105px;
+        height: 35px;
+        span {
+            font-size: 10px;
+        }
+    }
+    .catalog__content {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 340px) {
@@ -151,5 +171,15 @@
     .promo__icons {
         width: 318px;
         font-size: 12px;
+    }
+    .catalog__tab {
+        width: 90px;
+        height: 35px;
+        span {
+            font-size: 10px;
+        }
+    }
+    .catalog__content {
+        justify-content: center;
     }
 }

@@ -1,0 +1,33 @@
+.comment {
+    &__feed {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        padding-bottom: 48px;
+    }
+    &__item {
+        margin-left: 62px;
+    }
+    &__username {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    &__quantity {
+        margin-top: 10px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__text {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    hr {
+        margin-top: 48px;
+        border: 1px solid #f6f6f6;
+        border-bottom: none;
+    }
+}
