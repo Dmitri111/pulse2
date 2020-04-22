@@ -89,7 +89,7 @@ $(document).ready(function(){
     valideForms('#order form');
 
 
-/*       $('form').submit(function(e) {
+      $('form').submit(function(e) {
         e.preventDefault();
         $.ajax({
             type: "POST",
@@ -97,13 +97,10 @@ $(document).ready(function(){
             data: $(this).serialize()
         }).done(function() {
             $(this).find("input").val("");
-            $('#consultation, #order').fadeOut();
-            $('.overlay, #thanks').fadeIn('slow');
-
             $('form').trigger('reset');
         });
         return false;
-    }); */
+    });
 
     
   });
