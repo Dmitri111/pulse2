@@ -149,7 +149,12 @@
                 position: absolute;
                 top: 8px;
                 left: 3px;
-
+            }
+            &:nth-last-child(1){
+                &::before {
+                    content: '';
+                    background-color: transparent;
+                }
             }
         }
     }
